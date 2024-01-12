@@ -781,6 +781,10 @@ class Graphics {
         'stroke-width': opts.pointStrokeWidth ? opts.pointStrokeWidth : 0,
         'stroke-opacity': opts.pointStrokeOpacity ? opts.pointStrokeOpacity : 1,
       })
+    } else if (opts.shape === 'invertedTriangle' || opts.shape === 'triangle') {
+
+    } else if (opts.shape === 'diamond') {
+
     }
 
     return elPoint
